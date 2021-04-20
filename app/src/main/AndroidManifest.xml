@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.final1">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label=""
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Final1">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Metodos.Artista.ArtistaAlta"/>
+        <activity android:name=".Metodos.Artista.Artista_Metodos"></activity>
+        <activity android:name=".Metodos.Artista.ArtistaModificar"></activity>
+        <activity android:name=".Metodos.Artista.Artista_Borrar"></activity>
+        <activity android:name=".Metodos.Artista.Artista_Mostrar" />
+        <activity android:name=".Metodos.Album.Album_Alta" />
+        <activity android:name=".Metodos.Album.Album_Metodos" />
+        <activity android:name=".Metodos.Album.Album_Modificar"></activity>
+        <activity android:name=".Metodos.Album.Album_Borrar" />
+        <activity android:name=".Metodos.Album.Album_Mostrar" />
+        <activity android:name=".Metodos.Album.Album_Mostrar_Todo" />
+        <activity android:name=".Metodos.Cancion.Cancion_Metodos" />
+        <activity android:name=".Metodos.Cancion.Cancion_Alta" />
+        <activity android:name=".Metodos.Cancion.Cancion_Modificar" />
+        <activity android:name=".Metodos.Cancion.Cancion_Borrar" />
+        <activity android:name=".Metodos.Cancion.Cancion_Mostrar"/>
+        <activity android:name=".Metodos.Cancion.Cancion_Mostrar_Todo"/>
+    </application>
+
+</manifest>
